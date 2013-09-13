@@ -1,0 +1,232 @@
+body {
+	margin: 0;
+	font-family: Helvetica;
+	background: #FFFFFF;
+	color: #000000;
+	overflow: hidden;
+	-webkit-text-size-adjust: none;
+	background: #c8c8c8 url(pinstripes.png);
+}
+
+/* BUTTONS */
+.backwardButton {
+	position: absolute;
+	display: block;
+	top: 28px;
+	left: 6px;
+	right: auto;
+	-webkit-border-image: url(iPhoneBackButton.png) 0 8 0 14;
+	-webkit-border-radius: 0;
+	border-width: 0 8px 0 14px;
+	padding: 0;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-decoration: none;
+	background: none;
+}
+
+.cancelButton {
+	position: absolute;
+	display: block;
+	top: 28px;
+	left: 6px;
+	right: auto;
+	-webkit-border-image: url(iPhoneButton.png) 0 5 0 5;
+	-webkit-border-radius: 0;
+	border-width: 0 5px;
+	padding: 0;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-decoration: none;
+	background: none;
+}
+
+.menuButton {
+	position: absolute;
+	display: block;
+	top: 28px;
+	right: 6px;
+	left: auto;
+	-webkit-border-image: url(iPhoneButton.png) 0 5 0 5;
+	-webkit-border-radius: 0;
+	border-width: 0 5px;
+	padding: 0;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-decoration: none;
+	background: none;
+}
+
+.doneButton {
+	position: absolute;
+	display: block;
+	top: 28px;
+	right: 6px;
+	left: auto;
+	-webkit-border-image: url(iPhoneGoButton.png) 0 5 0 5;
+	-webkit-border-radius: 0;
+	border-width: 0 5px;
+	padding: 0;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-decoration: none;
+	background: none;
+}
+
+/* TITLES */
+h1, h2 {
+	margin: 0;
+	text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+
+h1 {
+	padding: 10px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 20px;
+	background: url(iPhoneToolbar.png) #6d84a2 repeat-x;
+	border-bottom: 1px solid #2d3642;
+}
+
+h2 {
+	padding: 0;
+	text-align: left;
+	color: rgba(0, 66, 132, 0.6);
+	display: block;
+	position: relative;
+	top: 15px;
+	left: 20px;
+	marging: 0;
+}
+
+/* FORMS */
+fieldset {
+	margin: 0;
+	border: 0;
+	padding: 6px;
+}
+
+label {
+	margin: 14px 0 0 6px;
+	padding: 0;
+	font-size: 14px;
+	color: #BBBBBB;
+}
+
+input {
+	width: 90%;
+	margin: 0;
+	padding: 8px 6px 8px 6px;
+	border: solid 1px gray;
+	border-bottom: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	-webkit-border-radius: 0px;
+}
+
+fieldset>input:first-child {
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+}
+
+fieldset>input:last-child {
+	margin-bottom: 20px;
+	border-bottom: solid 1px gray;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+}
+
+fieldset>select {
+	background-color: #000000;
+	background-position: initial initial;
+	background-repeat: initial initial;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 5px;
+	width: 100%;
+}
+
+/* LISTS */
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul>li {
+	list-style: none;
+	border-bottom: 1px solid #E0E0E0;
+	background: white url(iPhoneArrow.png) no-repeat right center;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+ul>li>a {
+	display: block;
+	padding: 8px 32px 8px 8px;
+	text-decoration: none;
+	color: inherit;
+}
+
+ul>li>a>span {
+	font-size: x-small;
+}
+
+/* TABLES */
+table {
+	margin-top: 15px;
+	margin-left: 5%;
+	width: 90%;
+	border: 1px solid #e3e3e3;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	background-color: #f2f2f2;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+table th {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bolder;
+	text-align: left;
+	text-shadow: white 1px 1px 1px;
+}
+
+table td {
+	font-size: 14px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+table tr {
+	width: 100%;
+}
+
+table tr:hover {
+	background-color: #fff;
+}
